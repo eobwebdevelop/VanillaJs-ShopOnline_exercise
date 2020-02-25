@@ -1,0 +1,182 @@
+body,
+html {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+}
+
+.containerFluid {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 918px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.right {
+  text-align: right;
+}
+
+/*HeadernavBar*/
+nav {
+  background-color: #000;
+}
+
+ul {
+  width: 49%;
+  display: inline-block;
+  padding-inline-start: 0px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 3%;
+  font-size: 18px;
+  color: #fff;
+}
+
+img.bag {
+  max-width: 17px;
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+.half {
+  width: 49%;
+  display: inline-block;
+}
+p.textFilter {
+  font-size: 24px;
+}
+input[type="text"] {
+  border: 1px solid gray;
+  padding: 10px;
+  max-width: 200px;
+  width: 100%;
+}
+.row {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+div#cars {
+  margin-bottom: 1%;
+}
+.card {
+  display: inline-block;
+  width: 31%;
+  text-align: left;
+  margin: 3% 1%;
+}
+.car p {
+  font-size: 22px;
+  color: #333;
+}
+p.model {
+  font-size: 22px;
+  color: #333;
+  text-align: left;
+  margin: 7px 0px;
+}
+p.price {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+button {
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #3c3c3c;
+}
+
+.half {
+  width: 49%;
+  display: inline-block;
+}
+p.textFilter {
+  font-size: 24px;
+}
+input[type="text"] {
+  border: 1px solid gray;
+  padding: 10px;
+  max-width: 200px;
+  width: 100%;
+}
+.row {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+div#cars {
+  margin-bottom: 1%;
+}
+.card {
+  display: inline-block;
+  width: 31%;
+  text-align: left;
+  margin: 3% 1%;
+}
+.car p {
+  font-size: 22px;
+  color: #333;
+}
+p.model {
+  font-size: 22px;
+  color: #333;
+  text-align: left;
+  margin: 7px 0px;
+}
+p.price {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+button {
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #3c3c3c;
+}
+
+
+
+/*Media Query*/
+@media only screen and (max-width: 521px) {
+  .car {
+    width: 100%;
+  }
+}
+
+
+
+/*footer*/
+footer {
+  position: fixed;
+  bottom: 0px;
+  display: inline-block;
+  margin: 0px;
+  width: 99%;
+  padding: 0px;
+  background-color: white;
+}
+
+footer p {
+  font-size: 12px;
+  color: #999;
+}

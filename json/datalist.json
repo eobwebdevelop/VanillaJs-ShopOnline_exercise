@@ -1,0 +1,38 @@
+[
+  {
+    "model": "Model 1",
+    "price": "22500.00",
+    "priceEuros": "22.500,00 €",
+    "imagePath": "./img/image.jpg"
+  },
+  {
+    "model": "Model 2",
+    "price": "23550.00",
+    "priceEuros": "23.550,00 €",
+    "imagePath": "./img/image.jpg"
+  },
+  {
+    "model": "Model 3",
+    "price": "25000.50",
+    "priceEuros": "25.000,50 €",
+    "imagePath": "./img/image.jpg"
+  },
+  {
+    "model": "Model 4",
+    "price": "25500.00",
+    "priceEuros": "25.500,00 €",
+    "imagePath": "./img/image.jpg"
+  },
+  {
+    "model": "Model 5",
+    "price": "30000.00",
+    "priceEuros": "30.000,00 €",
+    "imagePath": "./img/image.jpg"
+  },
+  {
+    "model": "Model 6",
+    "price": "35000.50",
+    "priceEuros": "35.000,50 €",
+    "imagePath": "./img/image.jpg"
+  }
+]
