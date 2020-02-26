@@ -13,7 +13,7 @@
 
     card.innerHTML = `
       <p class="model">${car.model}</p>
-      <img src='http://localhost:8888/WildCodesShool/1-javaScript/shopOnline/${car.imagePath}'/>
+      <img src='${car.imagePath}'/>
       <p class="price">${car.priceEuros}</p>
     `;
     return card;
